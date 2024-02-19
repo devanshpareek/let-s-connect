@@ -131,11 +131,12 @@ const SideDrawer = () => {
         display={"flex"}
         justifyContent={"space-between"}
         alignItems={"center"}
-        bg={"white"}
-        opacity={"0.7"}
+        bg={"lightgray"}
+        opacity={"1"}
         w={"100%"}
         p={"5px 10px 5px 10px"}
         borderWidth={"5px"}
+        borderColor={"lightgray"}
         color={"black"}
       >
         <Tooltip label="Search Users to Chat" hasArrow placement="bottom-end">
