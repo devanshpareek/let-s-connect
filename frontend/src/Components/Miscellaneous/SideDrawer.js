@@ -191,7 +191,11 @@ const SideDrawer = () => {
             </MenuList>
           </Menu>
           <Menu>
-            <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+            <MenuButton
+              bg={"lightgray"}
+              as={Button}
+              rightIcon={<ChevronDownIcon />}
+            >
               <Avatar
                 size={"sm"}
                 cursor={"pointer"}
@@ -199,7 +203,7 @@ const SideDrawer = () => {
                 src={user.pic}
               />
             </MenuButton>
-            <MenuList>
+            <MenuList bg={"lightgray"}>
               <ProfileModal user={user}>
                 <MenuItem>My Profile</MenuItem>
               </ProfileModal>

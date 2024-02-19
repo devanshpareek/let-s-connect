@@ -64,7 +64,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pintTimeout: 60000,
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://let-s-connect.onrender.com",
   },
 });
 

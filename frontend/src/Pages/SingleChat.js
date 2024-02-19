@@ -261,6 +261,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
           alignItems="center"
           justifyContent="center"
           h="100%"
+          bg={"lightgray"}
         >
           <Text fontSize="3xl" pb={3} fontFamily="Work sans">
             Click on a user to start chatting
